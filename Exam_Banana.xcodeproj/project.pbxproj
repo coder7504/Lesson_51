@@ -12,6 +12,8 @@
 		CE2B69182816DAAD009B7862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B69172816DAAD009B7862 /* AppDelegate.swift */; };
 		CE2B69212816DAB0009B7862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2B69202816DAB0009B7862 /* Assets.xcassets */; };
 		CE2B69242816DAB0009B7862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2B69222816DAB0009B7862 /* LaunchScreen.storyboard */; };
+		CEFAF8B52860D18700809958 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAF8B32860D18700809958 /* MainVC.swift */; };
+		CEFAF8B62860D18700809958 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAF8B42860D18700809958 /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE2B69202816DAB0009B7862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2B69232816DAB0009B7862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2B69252816DAB0009B7862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFAF8B32860D18700809958 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		CEFAF8B42860D18700809958 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				CE2B69202816DAB0009B7862 /* Assets.xcassets */,
 				CE2B69222816DAB0009B7862 /* LaunchScreen.storyboard */,
 				CE2B69252816DAB0009B7862 /* Info.plist */,
+				CEFAF8B32860D18700809958 /* MainVC.swift */,
+				CEFAF8B42860D18700809958 /* MainVC.xib */,
 				2B180B492860D13E0077125D /* HomeVC.swift */,
 				2B180B4A2860D13E0077125D /* HomeVC.xib */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFAF8B62860D18700809958 /* MainVC.xib in Resources */,
 				CE2B69242816DAB0009B7862 /* LaunchScreen.storyboard in Resources */,
 				2B180B4C2860D13E0077125D /* HomeVC.xib in Resources */,
 				CE2B69212816DAB0009B7862 /* Assets.xcassets in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2B69182816DAAD009B7862 /* AppDelegate.swift in Sources */,
+				CEFAF8B52860D18700809958 /* MainVC.swift in Sources */,
 				2B180B4B2860D13E0077125D /* HomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
