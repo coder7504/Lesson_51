@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B180B4B2860D13E0077125D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B180B492860D13E0077125D /* HomeVC.swift */; };
+		2B180B4C2860D13E0077125D /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B180B4A2860D13E0077125D /* HomeVC.xib */; };
 		CE2B69182816DAAD009B7862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B69172816DAAD009B7862 /* AppDelegate.swift */; };
 		CE2B69212816DAB0009B7862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2B69202816DAB0009B7862 /* Assets.xcassets */; };
 		CE2B69242816DAB0009B7862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2B69222816DAB0009B7862 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B180B492860D13E0077125D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2B180B4A2860D13E0077125D /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		CE2B69142816DAAD009B7862 /* Exam_Banana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exam_Banana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2B69172816DAAD009B7862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2B69202816DAB0009B7862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				CE2B69202816DAB0009B7862 /* Assets.xcassets */,
 				CE2B69222816DAB0009B7862 /* LaunchScreen.storyboard */,
 				CE2B69252816DAB0009B7862 /* Info.plist */,
+				2B180B492860D13E0077125D /* HomeVC.swift */,
+				2B180B4A2860D13E0077125D /* HomeVC.xib */,
 			);
 			path = Exam_Banana;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2B69242816DAB0009B7862 /* LaunchScreen.storyboard in Resources */,
+				2B180B4C2860D13E0077125D /* HomeVC.xib in Resources */,
 				CE2B69212816DAB0009B7862 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2B69182816DAAD009B7862 /* AppDelegate.swift in Sources */,
+				2B180B4B2860D13E0077125D /* HomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
